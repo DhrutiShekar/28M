@@ -1,0 +1,68 @@
+body {
+    
+    background-image: url('page1bgimg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#b1, #b2, #b3, #b4, #add-checkbox {
+    
+    background-color: purple; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+#b1, #b2:hover {
+    background-color: rgb(236, 91, 236); 
+}
+
+#pid {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 170px;
+}
+
+#pid:focus {
+    border-color: purple;
+    box-shadow: 0 0 10px rgb(234, 111, 234); /* Add a box shadow */
+}
+
+.container {
+    width: 100%; /* Ensure container takes full width */
+    display: flex; /* Use flexbox for layout */
+}
+
+.paragraphs {
+    width: 800px; /* Set width of paragraphs */
+    text-align: justify;
+}
+
+.image {
+    margin-left: auto; /* Push image to the right */
+    max-width: 600px; /* Set maximum width of the image */
+    max-height: 600px; /* Set maximum height of the image */
+    padding-right: 50px; /* Add padding on the right side of the image */
+    padding-top: 20px; 
+}
+
+.image1, .image2, .image3 {
+    width: 400px; /* Set width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add space between image and text */
+}
+
+
+  
